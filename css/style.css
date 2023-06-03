@@ -1,0 +1,908 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body: {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+#xx {
+    color: #1e266d;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/*header start*/
+.header {
+    width: 100%;
+    padding: 15px 0px;
+    position: fixed;
+    background: #fff;
+    border-bottom: ;
+
+}
+
+.inner-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 50%;
+    transition: .5s;
+}
+
+.logo img:hover {
+    width: 60%;
+}
+
+.inner-header .navbar {
+    display: flex;
+
+}
+
+.inner-header .navbar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.inner-header .navbar li a {
+    display: block;
+    margin: 30px 10px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #1e266d;
+    transition: .5s
+}
+
+.inner-header .navbar li a:hover {
+    color: #007bff;
+    font-size: 16px;
+
+}
+
+.button-group {
+    display: flex;
+}
+
+.button-group .btn-primary {
+    padding: 10px 35px;
+    background: #1e266d;
+    color: #fff;
+    border: 1px solid #1e266d;
+    display: inline-block;
+    margin: 28px 0px 20px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.button-group .btn-primary:hover {
+    background: #00aeef;
+    color: fff;
+    border: 1px solid #00aeef;
+    font-size: 16px
+}
+
+/*hader end*/
+
+/*1st banner start*/
+
+.banner {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.banner .inner-banner {
+    display: flex;
+    align-items: center;
+}
+
+.inner-banner .banner-text {
+    flex-basis: 50%;
+}
+
+.inner-banner .banner-text h1 {
+    font-size: 42px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #1e266d;
+    margin: 0px 0px 20px;
+    transition: .5s
+}
+
+.inner-banner .banner-text h1:hover {
+    font-size: 44px;
+}
+
+.inner-banner .banner-text h4 {
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: 300;
+    color: #1e266d;
+    margin: 0px 0px 10px;
+}
+
+/*auto type*/
+.container1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 300;
+    color: #1e266d;
+}
+
+/*auto type end*/
+.inner-banner .banner-text .btn-primary {
+    padding: 10px 35px;
+    background: #1e266d;
+    color: #fff;
+    border: 1px solid #1e266d;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: .5s;
+}
+
+.inner-banner .banner-text .btn-primary:hover {
+    background: #00aeef;
+    color: fff;
+    border: 1px solid #00aeef;
+    font-size: 16px;
+}
+
+.inner-banner .banner-img {
+    flex-basis: 50%;
+}
+
+
+.inner-banner .banner-img .fluid {
+    width: 100%;
+}
+
+/*1st banner end*/
+
+
+/*feature start */
+.feature {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.inner-feature {
+    display: flex;
+}
+
+.feature-box {
+    display: flex;
+    background: #eee;
+    flex-basis: 33.33%;
+    margin: 0px 10px 0px;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.feature-box .icon {
+    flex-basis: 15%;
+}
+
+.feature-box .icon .fa {
+    font-size: 35px;
+    color: #fff
+}
+
+.feature-box .content {
+    flex-basis: 85%;
+}
+
+.feature-box .content h4 {
+    font-size: 22px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #fff;
+    margin: 0px 0px 10px;
+    transition: .5s;
+}
+
+.feature-box .content h4:hover {
+    font-size: 25px;
+}
+
+.feature-box .content p {
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0px 0px 10px;
+    transition: .5s
+}
+
+.feature-box .content p:hover {
+    font-size: 15px;
+}
+
+.bg-1 {
+    background: #F9799A;
+    transition: .5s;
+}
+
+.bg-2 {
+    background: #61C4D8;
+    transition: .5s;
+}
+
+.bg-3 {
+    background: #1E266D;
+    transition: .5s;
+}
+
+.bg-1:hover {
+    background: #ff7675
+}
+
+.bg-2:hover {
+    background: #ff7675
+}
+
+.bg-3:hover {
+    background: #ff7675
+}
+
+
+/*feature end*/
+
+
+
+/*support section  start*/
+.support-hero-1st {
+    background: #F5F7FA;
+    width: 100%;
+    height: 300px;
+}
+
+.banner-text {
+    margin-left: 50px;
+}
+
+/*support section  end*/
+
+.features {
+    width: 100%;
+}
+
+.Inner-feature1 {
+    width: 100%;
+    text-align: center;
+    padding: 80 px 0px;
+    margin-top: 80px;
+}
+
+.Inner-feature1 h2 {
+    font-size: 45px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #1e266d;
+    margin: 0px 0px 15px;
+
+
+}
+
+.features2 {
+    width: 100%;
+}
+
+.Inner-feature2 {
+    display: flex;
+    margin-left: 20px;
+    padding: 0px 60px 0px 30px;
+
+}
+
+.Inner-feature2 .feature-box1 {
+    flex-basis: 25%;
+    padding: 10px 10px 0px;
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+}
+
+.Inner-feature2 .feature-box1 .icon1 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+
+}
+
+.feature-box1 .feature2-text strong {
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: 700;
+}
+
+.feature-box1 .feature2-text p {
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin: 15px 0px 0px 0px;
+}
+
+.Inner-feature2 a {
+    display: block;
+    color: #495057;
+    background-color: #fff;
+    border: none;
+    border-color: transparent;
+    list-style: none;
+    transition: 1s;
+}
+
+.Inner-feature2 .cl-1 {
+    cursor: pointer;
+    border-top: 5px solid #01AEEF;
+}
+
+.Inner-feature2 .cl-2 {
+    cursor: pointer;
+    border-top: 5px solid #E94524;
+}
+
+.Inner-feature2 .cl-3 {
+    cursor: pointer;
+    border-top: 5px solid #F9AC1A;
+}
+
+.Inner-feature2 .cl-4 {
+    cursor: pointer;
+    border-top: 5px solid #2D9470;
+}
+
+.successfull-stories {
+    width: 95%;
+    background: #F5F7FA;
+    margin-top: 100px;
+    border-top: 1px solid red;
+}
+
+/*tab section start*/
+.Service1 {
+    width: 100%;
+}
+
+.Service1 .Inner-Service1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.Inner-Service1 .Service-text1 {
+    flex-basis: 40%;
+    padding: 0px 0px 0px 50px;
+
+}
+
+.Inner-Service1 .Service-text1 span {
+    font-size: 24px;
+    line-height: 1.7em;
+    font-weight: 300;
+    color: #171f3c;
+    margin: 0px 0px 15px;
+}
+
+.Inner-Service1 .Service-text1 h2 {
+    font-size: 45px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #1e266d;
+    margin: 0px 0px 15px;
+}
+
+.Inner-Service1 .Service-text1 p {
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #526375;
+    margin: 0px 0px 15px;
+}
+
+.Inner-Service1 .Service-text1 .btn-primary {
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 26px;
+    border: 1px solid #1e266d;
+    border-radius: 5px;
+    background: #1e266d;
+    color: #fff;
+    transition: 1s;
+}
+
+.Inner-Service1 .Service-text1 .btn-primary:hover {
+    border: 1px solid #00AEEF;
+    background: #00AEEF;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*tab section end*/
+
+/* **************** Youtube Section CSS Start *****************  */
+.youtube-video {
+    width: 100%;
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+
+.youtube-video .youtube-box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.youtube-video .youtube-box .play-btn img {
+    width: 80px;
+    position: absolute;
+    top: 350px;
+    left: 530px;
+    opacity: 0.4;
+    transition: 1s;
+}
+
+.youtube-video .youtube-box .play-btn img:hover {
+    opacity: 1;
+    width: 85px;
+}
+
+/* **************** Youtube Section CSS End *****************  */
+
+/*successfull-stories strt*/
+
+
+.successfull-stories {
+    width: 100%;
+}
+
+.successfull-stories .successfull-story {
+    width: 100%;
+    display: flex;
+    padding: 60px 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.successfull-story .text-quote {
+    flex-basis: 60%;
+}
+
+.successfull-story .text-quote img {
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+/*.successfull-story .text-quote:hover img{*/
+/*	transform: scale(1.2);*/
+}
+
+.successfull-story .text-quote .title {
+    font-size: 45px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #07324f;
+    margin: 0px 0px 15px;
+}
+
+.successfull-story .text-quote p {
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin: 15px 0px 10px 0px;
+}
+
+#ssb {
+    padding: 10px 35px;
+    background: #1e266d;
+    color: #fff;
+    border: 1px solid #1e266d;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 28px 0px 20px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+#ssb:hover {
+    background: #00aeef;
+    color: fff;
+    border: 1px solid #00aeef;
+    font-size: 16px
+}
+
+.avater img {
+    width: 500px;
+}
+
+
+/*successfull-stories end*/
+
+/*footer-2 start*/
+.footer-2 {
+    padding: 100px 50px;
+}
+
+
+.blue {
+    padding: 100px 50px;
+    background: #2E367D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+}
+
+.blue:hover {
+    background: #ff7675;
+}
+
+.footer-lef {
+    margin-left: ;
+}
+
+.footer-right {
+    margin-left: 130px;
+}
+
+.footer-left h2 {
+    color: #fff;
+    font-size: 24px;
+    transition: .5s;
+}
+
+.footer-left h2:hover {
+    font-size: 26px;
+}
+
+.footer-left p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.9;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    transition: .5s;
+}
+
+/*.footer-left p:hover {*/
+font-size: 18px;
+}
+
+/*.footer-right h2 {*/
+color: #fff;
+font-size: 24px;
+transition: .5s;
+}
+
+#right-h2 {
+    color: #fff;
+}
+
+.footer-right h2:hover {
+    font-size: 26px;
+}
+
+.footer-right p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.9;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    transition: .5s;
+}
+
+/*.footer-right p:hover {*/
+font-size: 18px;
+}
+
+
+/* **************** Footer Section CSS Start *****************  */
+.footer {
+    width: 100%;
+    margin: 20px 0px;
+
+}
+
+.footer .footer-box {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+/* Shikhbe Sobai Part */
+.footer .footer-box .shikhbesobai {
+    flex-basis: 20%;
+    padding-right: 20px;
+
+}
+
+.footer .footer-box .shikhbesobai h5 {
+    font-size: 16px;
+    font-weight: 1.3em;
+    color: #1e266d;
+    margin: 0px 0px 20px;
+}
+
+.footer .footer-box .shikhbesobai p {
+    font-size: 16px;
+    font-weight: 1.7em;
+    color: #91a3bb;
+}
+
+/* Connect  Part */
+.footer .footer-box .connect {
+    flex-basis: 25%;
+    padding-left: 20px;
+
+}
+
+.footer .footer-box .connect h5 {
+    font-size: 16px;
+    font-weight: 1.3em;
+    color: #1e266d;
+    margin: 0px 0px 20px
+}
+
+.footer .footer-box .connect p {
+    font-size: 16px;
+    font-weight: 1.7em;
+    color: #91a3bb;
+}
+
+/* Useful Links Part */
+.footer .footer-box .useful-links {
+    flex-basis: 25%;
+    padding-left: 20px;
+}
+
+.footer .footer-box .useful-links h5 {
+    font-size: 16px;
+    font-weight: 1.3em;
+    color: #1e266d;
+    margin: 0px 0px 20px
+}
+
+.footer .footer-box .useful-links p {
+    font-size: 16px;
+    font-weight: 1.7em;
+    color: #91a3bb;
+}
+
+.footer .footer-box .useful-links ul li {
+    list-style: none;
+}
+
+.footer .footer-box .useful-links ul li a {
+    color: #91a3bb;
+    transition: 0.5s;
+}
+
+.footer .footer-box .useful-links ul li a:hover {
+    color: #1e266d;
+    font-size: 18px;
+}
+
+/* Social Links Part */
+.footer .footer-box .social-links {
+    flex-basis: 25%;
+    padding-left: 20px;
+}
+
+.footer .footer-box .social-links h5 {
+    font-size: 16px;
+    font-weight: 1.3em;
+    color: #1e266d;
+    margin: 0px 0px 20px
+}
+
+.footer .footer-box .social-links p {
+    font-size: 16px;
+    font-weight: 1.7em;
+    color: #91a3bb;
+}
+
+.footer .footer-box .social-links ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer .footer-box .social-links ul li a {
+    display: block;
+    color: #fff;
+    background-color: #1e266d;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 44px;
+    transition: .5s;
+}
+
+.footer .footer-box .social-links ul li a:hover {
+    color: #fff;
+    background-color: #01aeef;
+    font-size: 16px;
+
+}
+
+.footer .footer-p p {
+    text-align: center;
+    margin: 35px 0px 20px;
+    color: #fff;
+    background-color: #1e266d;
+    padding: 10px 0px;
+}
+
+.footer .footer-p p span {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* **************** Footer Section CSS End *****************  */
+/*footer-x start*/
+
+/*.footer-x p {*/
+font-size: 14px;
+margin-top: 10px;
+line-height: 24px;
+color: #f0f0f0;
+
+}
+
+/*.footer-x p strong {*/
+font-weight: 600;
+}
+
+/*.footer-x p strong a {*/
+color: #fff;
+transition: .25s;
+}
+
+/*.footer-x p strong a:hover {*/
+font-size: 15px;
+}
+
+/*#fx {*/
+font-family: 'Kaushan Script',
+cursive;
+font-family: 'Rock Salt',
+cursive;
+}
+
+/*footer-x end*/
+
+/*.footer-x {*/
+background: red;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-f {
+    width: 100%;
+    height: 50px;
+    float: ;
+    background: #0B66FD;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-f p {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 24px;
+    text-align: center;
+    color: red;
+    margin-top: 30px;
+    background: #0B66FD;
+
+
+}
+
+.footer-f p strong {
+    font-weight: 600;
+}
+
+.footer-f p strong a {
+    color: red;
+    transition: .25s;
+}
+
+.footer-f p strong a:hover {
+    font-size: 15px;
+}
+
+/*footer-x start*/
+.footer-x {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: #2E367D;
+    text-align: center;
+    margin-top: 25px;
+}
+.footer-x p {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 24px;
+    color: #f0f0f0;
+
+}
+
+.footer-x p strong {
+    font-weight: 600;
+}
+
+.footer-x p strong a {
+    color: #fff;
+    transition: .25s;
+}
+
+.footer-x p strong a:hover {
+    font-size: 15px;
+}
+
+#fx {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Rock Salt', cursive;
+}
+
+/*footer-x end*/
